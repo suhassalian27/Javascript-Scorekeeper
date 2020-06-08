@@ -30,7 +30,7 @@ body {
     text-align: center;
 }
 .score {
-    background: rgba(0, 0, 0, 0.266);
+    background: rgba(0, 0, 0, 0.3);
 }
 
 #p1display {
@@ -47,7 +47,7 @@ body {
     -webkit-text-stroke: 2px rgb(0, 0, 0);
     text-shadow: 4px 2px 5px black;
 }
-#p1display:hover {
+#p2display:hover {
     text-shadow: 5px 5px 5px black;
 }
 
@@ -90,21 +90,21 @@ p span {
 }
 
 #p1 {
-    box-shadow: 5px 5px 10px rgb(0, 93, 180);
+    box-shadow: 3px 3px 5px rgb(0, 93, 180);
 }
 
 #p1:hover {
     background-color: rgb(2, 63, 121);
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 3px 3px 5px black;
     transition: 0.2s;
 }
 
 #p2 {
-    box-shadow: 5px 5px 10px rgba(228, 21, 21, 0.76);
+    box-shadow: 3px 3px 5px rgba(228, 21, 21, 0.76);
 }
 #p2:hover {
     background-color: rgb(121, 2, 2);
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 3px 3px 5px black;
     transition: 0.2s;
 }
 
